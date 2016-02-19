@@ -7,17 +7,14 @@
   <body>
       <script type="text/javascript">
           var a=10;      //定义一个变量，在function外边所以function里边是可以使用这个变量的；
-          function ac(a) {
+          function ac() {
             a+=3;      //每次调用都+=3；但是每次调用时候a传入的值一直是10；
             alert(a);
           }
-          ac(a);
-          alert(a);
-          ac(a);
-          alert(a);
-          ac(a);
-          alert(a);
-          ac(a);
+          ac();
+          ac();
+          ac();
+          ac();
       </script>
   </body>
 </html>
